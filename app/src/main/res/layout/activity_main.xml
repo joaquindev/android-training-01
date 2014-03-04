@@ -17,6 +17,7 @@ android:orientation="horizontal">
 
     <Button android:layout_height="wrap_content"
         android:text="@string/button_send"
-        android:layout_width="wrap_content" />
+        android:layout_width="wrap_content"
+        android:onClick="sendMessage"/>
 
 </LinearLayout>
